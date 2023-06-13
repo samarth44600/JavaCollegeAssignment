@@ -21,3 +21,9 @@ public class SmallestNumberFinder_5 {
         System.out.println("The smallest number is: " + smallestNumber);
     }
 }
+
+
+
+
+
+

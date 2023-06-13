@@ -4,31 +4,45 @@ public class LargestNumberFinder_7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the first number: ");
-        int number1 = scanner.nextInt();
+        System.out.println("Enter the first number: ");
+        int num1 = scanner.nextInt();
 
-        System.out.print("Enter the second number: ");
-        int number2 = scanner.nextInt();
+        System.out.println("Enter the second number: ");
+        int num2 = scanner.nextInt();
 
-        System.out.print("Enter the third number: ");
-        int number3 = scanner.nextInt();
+        System.out.println("Enter the third number: ");
+        int num3 = scanner.nextInt();
 
-        int largestNumber;
+        int largest;
 
-        if (number1 > number2) {
-            if (number1 > number3) {
-                largestNumber = number1;
+        // Using nested if
+        if (num1 >= num2) {
+            if (num1 >= num3) {
+                largest = num1;
             } else {
-                largestNumber = number3;
+                largest = num3;
             }
         } else {
-            if (number2 > number3) {
-                largestNumber = number2;
+            if (num2 >= num3) {
+                largest = num2;
             } else {
-                largestNumber = number3;
+                largest = num3;
             }
         }
 
-        System.out.println("The largest number is: " + largestNumber);
+        System.out.println("Using nested if, the largest number is: " + largest);
+
+        // Using && operator
+        largest = num1;
+
+        if (num2 > largest && num2 > num3) {
+            largest = num2;
+        }
+
+        if (num3 > largest && num3 > num2) {
+            largest = num3;
+        }
+
+        System.out.println("Using && operator, the largest number is: " + largest);
     }
 }
