@@ -3,7 +3,7 @@
 // of these classes as per requirement in class itself. Create some instances of Triangle and
 // demonstrate interface implementation by classes.
 
-package assignment3;
+package assignment5;
 
 // Define the Shape interface
 interface Shape {

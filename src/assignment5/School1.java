@@ -15,7 +15,7 @@
 // schoolName set previously. Now call both the function. Hint: Use super to call
 // the function of parent.
 
-package assignment3;
+package assignment5;
 
 class Student {
     String studentName;

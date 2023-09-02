@@ -3,7 +3,7 @@
 // of the Employee class, set them and display the name of youngest Employee in the main
 // function of another class named EmpDemo.
 
-package assignment3;
+package assignment5;
 
 class Employee {
     private String name;

@@ -2,7 +2,7 @@
 // x, int y) to perform addition and subtraction of numbers passed as arguments. Then
 // define a class that implements interface calculate.
 
-package assignment3;
+package assignment5;
 
 // Define the Calculate interface
 interface Calculate {

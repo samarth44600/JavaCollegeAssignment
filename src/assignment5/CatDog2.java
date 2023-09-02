@@ -3,7 +3,7 @@
 // method 'dogs' which prints "Dogs bark", both inheriting the class 'Animals'. Now create
 // an object for each of the subclasses and call their respective methods.
 
-package assignment3;
+package assignment5;
 
 abstract class Animals {
     public abstract void cats();

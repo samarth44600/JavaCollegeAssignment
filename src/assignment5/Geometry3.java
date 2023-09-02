@@ -5,7 +5,7 @@
 // Create another class Geometry which contains the main function, from the main function
 // create instances of the two class Circle and Rectangle and call the method draw().
 
-package assignment3;
+package assignment5;
 
 abstract class Shape {
     public abstract void draw();
