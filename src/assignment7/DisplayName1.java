@@ -6,7 +6,7 @@ package assignment7;
 class MyThread extends Thread {
     public void run() {
         for (int i = 1; i <= 10; i++) {
-            System.out.println("Your Name");
+            System.out.println("Samarth");
         }
     }
 }
@@ -36,13 +36,13 @@ public class DisplayName1 {
 // Main Thread
 // Main Thread
 // Main Thread
-// Your Name
-// Your Name
-// Your Name
-// Your Name
-// Your Name
-// Your Name
-// Your Name
-// Your Name
-// Your Name
-// Your Name
+// Samarth
+// Samarth
+// Samarth
+// Samarth
+// Samarth
+// Samarth
+// Samarth
+// Samarth
+// Samarth
+// Samarth

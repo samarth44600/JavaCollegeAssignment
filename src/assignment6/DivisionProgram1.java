@@ -9,14 +9,14 @@ import java.util.Scanner;
 // classname = DivisionProgram
 public class DivisionProgram1 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         try {
             System.out.print("Enter the numerator (an integer): ");
-            int numerator = scanner.nextInt();
+            int numerator = sc.nextInt();
 
             System.out.print("Enter the denominator (an integer): ");
-            int denominator = scanner.nextInt();
+            int denominator = sc.nextInt();
 
             int result = divideNumbers(numerator, denominator);
             System.out.println("Result of division: " + result);
@@ -25,7 +25,7 @@ public class DivisionProgram1 {
         } catch (java.util.InputMismatchException e) {
             System.out.println("Error: Invalid input. Please enter integers only.");
         } finally {
-            scanner.close();
+            sc.close();
         }
     }
 

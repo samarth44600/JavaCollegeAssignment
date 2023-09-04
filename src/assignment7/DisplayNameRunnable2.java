@@ -5,7 +5,7 @@ package assignment7;
 class MyRunnable implements Runnable {
     public void run() {
         for (int i = 1; i <= 10; i++) {
-            System.out.println("Your Name");
+            System.out.println("Samarth");
         }
     }
 }
@@ -34,16 +34,16 @@ public class DisplayNameRunnable2 {
 // Main Thread
 // Main Thread
 // Main Thread
-// Your Name
-// Your Name
-// Your Name
-// Your Name
-// Your Name
-// Your Name
-// Your Name
-// Your Name
-// Your Name
-// Your Name
+// Samarth
+// Samarth
+// Samarth
+// Samarth
+// Samarth
+// Samarth
+// Samarth
+// Samarth
+// Samarth
+// Samarth
 // Main Thread
 // Main Thread
 // Main Thread
